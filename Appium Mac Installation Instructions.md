@@ -28,15 +28,6 @@
 * Click the Install button.
 * Enter your password to install software on your system.
 
-### Install Ruby 
-*** DO NOT use the default system OSX Ruby. Install a newer version with a Ruby package manager RVM (below instructions) or RBENV.
-
-* Open a terminal and check ruby version: `$ ruby -v`
-	* If the version is less than 2.3 or the command is not recognized you need to install ruby.
-	* run `$ \curl -sSL https://get.rvm.io | bash -s stable --ruby` in terminal. This will install RVM (Ruby Version Manager) and install the latest Ruby version.
-	* Run `$ rvm list` and see which ruby version was installed. Note the version number for next step.
-	* Run `rvm --default use 2.4.0` to set the version as default. e.g. 2.4.0 instead of 2.x.x...
-
 ### Install Node (We need this for parallelization)
 * Open a terminal and run `$ brew install node`.
 * Test install by running `$ npm --version`. Verify version 5.3.X or greater is returned.

@@ -17,7 +17,7 @@ import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.remote.MobilePlatform;
 
-public class LaunchAppTest {
+public class LaunchAppTestAndroidd {
 
 	//private static final String ImmutableMap = null;
 
